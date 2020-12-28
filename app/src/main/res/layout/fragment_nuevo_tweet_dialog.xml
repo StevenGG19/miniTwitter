@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.tweets.NuevoTweetDialogFragment">
+
+    <ImageView
+        android:id="@+id/imgCerrar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/ic_baseline_close_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription"/>
+
+    <Button
+        android:id="@+id/btnTweet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/bg_nuevo_tweet_button"
+        android:text="@string/twittear"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imgCerrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgCerrar" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgFotoP"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/ic_baseline_account_circle_24"
+        app:layout_constraintEnd_toEndOf="@+id/imgCerrar"
+        app:layout_constraintStart_toStartOf="@+id/imgCerrar"
+        app:layout_constraintTop_toBottomOf="@+id/imgCerrar" />
+
+    <EditText
+        android:id="@+id/edtNuevoTweet"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="24dp"
+        android:hint="@string/que_pasa"
+        android:ems="10"
+        android:gravity="start|top"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textColorHighlight="@color/azul"
+        android:textSize="24sp"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="@+id/imgFotoP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgFotoP"
+        app:layout_constraintTop_toTopOf="@+id/imgFotoP" />
+</androidx.constraintlayout.widget.ConstraintLayout>

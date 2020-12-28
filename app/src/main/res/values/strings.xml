@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Mini twitter</string>
+    <string name="correo">Email</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="entrar">Entrar</string>
+    <string name="nombre_usuario">Nombre de Usuario</string>
+    <string name="registro">Registrarme</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="title_activity_dash_board">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_prueba">PruebaActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="tool_inicio">Inicio</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="twittear">Twittear</string>
+    <string name="que_pasa">¿Qué esta pasando?</string>
+    <string name="guardar">Guardar</string>
+    <string name="cambiar_contrasena">Cambiar contraseña</string>
+    <string name="web_site">Website</string>
+    <string name="descripcion">Descripción e intereses</string>
+</resources>
